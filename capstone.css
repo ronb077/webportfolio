@@ -1,0 +1,117 @@
+/*CSS Reset*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #000000;
+}
+
+/*NavBar*/
+
+#nav-bar {
+	background-color: #000000;
+}
+
+#nav-l {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 700;
+	font-size: 30px;
+	background: #5390D9;
+	background: linear-gradient(to top left, #5390D9 0%, #4EA8DE 12%, #48BFE3 24%, #56CFE1 36%, #64DFDF 48%, #72EFDD 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+
+}
+
+
+.nav-item {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 700;
+	font-size: 30px;
+	background: #5390D9;
+	background: linear-gradient(to top left, #5390D9 0%, #4EA8DE 12%, #48BFE3 24%, #56CFE1 36%, #64DFDF 48%, #72EFDD 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.navbar-nav {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 700;
+	font-size: 30px;
+	background: #5390D9;
+	background: linear-gradient(to top left, #5390D9 0%, #4EA8DE 12%, #48BFE3 24%, #56CFE1 36%, #64DFDF 48%, #72EFDD 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+
+}
+
+.navbar-toggler {
+	background: #5390D9;
+	background: linear-gradient(to top left, #5390D9 0%, #4EA8DE 20%, #48BFE3 40%, #56CFE1 60%, #64DFDF 100%);
+
+
+}
+
+/* Introduction and DP */
+#intro {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 900;
+	font-size: 45px;
+}
+
+#intro-two {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 700;
+	font-size: 36px;
+}
+
+#intro-p {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+}
+
+#dp {
+	background: #5390D9;
+	background: radial-gradient(circle farthest-side at center center, #5390D9 0%, #4EA8DE 20%, #48BFE3 40%, #56CFE1 60%, #64DFDF 80%, #72EFDD 100%);
+
+}
+
+#more {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 700;
+	font-size: 30px;
+	background: #5390D9;
+	background: linear-gradient(to top left, #5390D9 0%, #4EA8DE 12%, #48BFE3 24%, #56CFE1 36%, #64DFDF 48%, #72EFDD 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+
+h5 {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+}
+
+#til {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 500;
+	font-size: 20px;
+	border-radius: 15px;
+	background: #5390D9;
+	background: linear-gradient(to top left, #5390D9 0%, #4EA8DE 20%, #48BFE3 40%, #56CFE1 60%, #64DFDF 100%);
+}
+
+#itg {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 500;
+	font-size: 20px;
+	border-radius: 15px;
+	background: #5390D9;
+	background: linear-gradient(to top left, #5390D9 0%, #4EA8DE 20%, #48BFE3 40%, #56CFE1 60%, #64DFDF 100%);
+}
+
