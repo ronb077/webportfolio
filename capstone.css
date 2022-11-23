@@ -115,3 +115,29 @@ h5 {
 	background: linear-gradient(to top left, #5390D9 0%, #4EA8DE 20%, #48BFE3 40%, #56CFE1 60%, #64DFDF 100%);
 }
 
+#portfolio {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 700;
+	font-size: 30px;
+	background: #5390D9;
+	background: linear-gradient(to top left, #5390D9 0%, #4EA8DE 12%, #48BFE3 24%, #56CFE1 36%, #64DFDF 48%, #72EFDD 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+#cm {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 700;
+	font-size: 30px;
+	background: #5390D9;
+	background: linear-gradient(to top left, #5390D9 0%, #4EA8DE 12%, #48BFE3 24%, #56CFE1 36%, #64DFDF 48%, #72EFDD 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+#cm-form {
+	border-radius: 15px;
+	background: #5390D9;
+	background: linear-gradient(to top left, #5390D9 0%, #4EA8DE 20%, #48BFE3 40%, #56CFE1 60%, #64DFDF 100%);
+}
+
