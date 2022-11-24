@@ -24,6 +24,7 @@ body {
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 
+
 }
 
 
@@ -93,7 +94,7 @@ body {
 
 h5 {
 	font-family: 'Source Sans Pro', sans-serif;
-	font-weight: 700;
+	font-weight: 900;
 	font-size: 20px;
 }
 
@@ -136,8 +137,16 @@ h5 {
 }
 
 #cm-form {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 18px;
 	border-radius: 15px;
 	background: #5390D9;
 	background: linear-gradient(to top left, #5390D9 0%, #4EA8DE 20%, #48BFE3 40%, #56CFE1 60%, #64DFDF 100%);
 }
+
+.modal-dialog {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 18px;
+}
+
 

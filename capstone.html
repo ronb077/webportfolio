@@ -71,20 +71,20 @@
 <!-- About Me Section -->
 
 <div class="container-fluid text-center">
-	<div class="p-3 mt-3">
+	<div class="p-3">
 		<h3 id="more">About me</h3>
 		<div class="p-3 m-3 d-block d-lg-flex justify-content-lg-around">
 
 			<!-- Things I love -->
 			<div id="til" class="text-justify p-3 m-3 col-lg-6 text-dark">
-				<h5 class="text-center">THINGS I LOVE</h5>
-				<p>I have been called a “serial hobbyist.” There is so much to be interested in, to learn about, and to pour one’s creativity into. I spend time with our dogs, reading books, computers, drawing, and traveling. There are a million things I want to try, to do, to be better at. There is never enough time in the day, week, or year for everything; though I’m really trying.</p>
+				<h5 class="text-center mt-3">THINGS I LOVE</h5>
+				<p class="p-3 mb-3">I have been called a “serial hobbyist.” There is so much to be interested in, to learn about, and to pour one’s creativity into. I spend time with our dogs, reading books, computers, drawing, and traveling. There are a million things I want to try, to do, to be better at. There is never enough time in the day, week, or year for everything; though I’m really trying.</p>
 			</div>
 
 			<!-- Im that guy -->
 			<div id="itg" class="text-justify p-3 m-3 col-lg-6 text-dark">
-				<h5 class="text-center">I'M THAT GUY</h5>
-				<p>I didn’t make this page lightly, and have spent some time considering whether or not to really go for this. I love a challenge. I love the idea of working with people that are brilliant; whom I admire and respect. I know what it means to work together to make something great. And I look forward to making your company better by my addition. I want to learn from you and I want to teach you and I want to learn things together.</p>
+				<h5 class="text-center mt-3">I'M THAT GUY</h5>
+				<p class="p-3 mb-3">I didn’t make this page lightly, and have spent some time considering whether or not to really go for this. I love a challenge. I love the idea of working with people that are brilliant; whom I admire and respect. I know what it means to work together to make something great. And I look forward to making your company better by my addition. I want to learn from you and I want to teach you and I want to learn things together.</p>
 			</div>
 		</div>
 	</div>	
@@ -145,7 +145,7 @@
 		<form id="cm-form" class="col-12 offset-md-2 col-md-8 offset-xl-4 col-xl-4 bg-primary p-3 rounded">
 			<div class="form-group">
 				<label class="text-dark" for="name">Name:</label>
-				<input type="text" class="form-control" id="name" placeholder="Juan Dela Cruz">
+				<input type="text" class="form-control" id="name" placeholder="John Doe">
 			</div>
 			<div class="form-group">
 				<label class="text-dark" for="exampleInputEmail1">Email address:</label>
@@ -155,14 +155,9 @@
 				<label class="text-dark" for="contact">Contact Number:</label>
 				<input type="text" class="form-control" id="contact" placeholder="+63 900 000 0000">
 			</div>
-			<div>
-				<label class="text-dark" for="concern">Concern</label>
-				<select class="form-control" id="concern">
-					<option>N/A</option>
-					<option>Quotation</option>
-					<option>Appointment</option>
-					<option>Follow-up</option>
-				</select>
+			<div class="form-group">
+				<label class="text-dark" for="subject">Subject</label>
+				<input type="text" class="form-control" id="subject">
 			</div>
 			<div class="form-group">
 				<label class="text-dark">Message</label>
@@ -171,9 +166,38 @@
 			<button type="submit" class="btn btn-outline-dark btn-block" data-toggle="modal" data-target="#exampleModal">Send Email</button>
 		</form>
 	</div>
-
 </div>
 <!-- Contact Form Section End -->
+
+
+<!-- Modal Start -->
+<div>
+	<div class="modal fade" id="exampleModal"tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title">Thank you for contacting us!</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<p>Your message was successfully sent</p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-outline-primary" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Modal End -->
+
+<!-- footer -->
+<footer class="text-center text-white">
+	<span>&copy; 2022 Ronald Bautista. All Rights Reserved</span>
+</footer>
+<!-- end of footer -->
 
 
 <!-- Bootstrap Javascript Plugin -->
